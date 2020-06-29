@@ -11,7 +11,8 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'aboutUs', component: AboutUsComponent },
   { path: 'home', component: LandingPageComponent },
-  { path: '', redirectTo: '/home', pathMatch: 'full' }
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: '*', redirectTo: '/home', pathMatch: 'full' }
 ];
 
 @NgModule({
