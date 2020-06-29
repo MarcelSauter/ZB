@@ -1,0 +1,39 @@
+.content-container {
+  padding-top: 10px;
+
+  .navbar-logo {
+    height: 90px;
+  }
+
+  .navbar-links {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 90px;
+
+    @media (max-width: 992px) {
+      align-items: flex-start;
+      height: 100%;
+      padding: 20px 0;
+    }
+
+    a {
+      margin: 0 10px;
+      transition: .5s all;
+
+      &:hover {
+        border-bottom: 1px solid #655B5B;
+        text-decoration: none;
+      }
+    }
+
+    .active-link {
+      border-bottom: 1px solid #655B5B;
+
+      @media (max-width: 992px) {
+        border-bottom: none;
+        font-weight: bold;
+      }
+    }
+  }
+}
