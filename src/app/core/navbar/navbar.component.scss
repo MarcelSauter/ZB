@@ -16,17 +16,22 @@
 
       @media (max-width: 992px) {
         align-items: flex-start;
+        box-shadow: 1px 1px 0px 0px rgba(101,91,91,0.53);
         height: 100%;
         padding: 20px 0;
       }
 
       a {
-        margin: 0 10px;
-        transition: .5s all;
+        margin: 5px 10px;
+        transition: .2s all;
 
         &:hover {
           border-bottom: 1px solid #655B5B;
           text-decoration: none;
+
+          @media (max-width: 992px) {
+            border-bottom: none;
+          }
         }
       }
 
