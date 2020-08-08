@@ -9,6 +9,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { ContactComponent } from './contact/contact.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HistoryComponent } from './history/history.component';
+import { LegalNoticeComponent } from './legal-notice/legal-notice.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { HistoryComponent } from './history/history.component';
     LandingPageComponent,
     ContactComponent,
     HistoryComponent,
+    LegalNoticeComponent,
   ],
   imports: [
     BrowserModule,

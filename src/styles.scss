@@ -29,7 +29,7 @@ body {
 
     .text {
       font-weight: 200;
-      color: #655B5B;
+      color: #473727;
 
       &--large {
         font-size: 30px;
@@ -53,16 +53,23 @@ body {
     }
 
     .contact-button {
-      background-color: #655B5B;
+      background-color: #473727;
       border: none;
       bottom: 200px;
-      color: white;
+      color: #d4c9ae;
       float: right;
       font-size: 20px;
       font-weight: bolder;
       height: 60px;
       margin: 50px 0;
+      transition: .5s all;
       width: 360px;
+
+      &:hover {
+        background-color: #d4c9ae;
+        border: 1px solid #473727;
+        color: #473727;
+      }
 
       @media (max-width: 992px) {
         float: none;
